@@ -3,6 +3,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.body-1 {
+  background-color: #bc105c;
+}
+
 h1 {
   color: white;
   background-color: #bc105c;
@@ -15,5 +19,84 @@ h1 {
 }
 
 h2 {
+  color: white;
+  text-align: justify !important;
+}
+
+.modo-de-juego {
   text-align: justify;
+  color: white;
+}
+
+.borde-fondo {
+  text-align: center;
+  margin: 30px 12% 15px 12%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #bc105c;
+}
+
+.borde1 {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+
+img {
+  width: 100%;
+}
+
+.mk-titulo {
+  text-align: end;
+  color: #9a0032;
+  border-bottom: 2px dotted #9a0032;
+}
+
+button {
+  background-color: #277f1e;
+  color: white;
+  border-radius: 5px;
+  width: 90px;
+  height: 30px;
+  border: 0;
+  font-weight: 600;
+  text-decoration: none;
+  &:hover {
+    background-color: #bc105c;
+  }
+}
+
+p {
+  text-align: justify;
+  font-size: 10px;
+}
+
+
+.borde2 {
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.link-compra {
+  color: white;
+  background-color: #277f1e;
+  text-decoration:underline;
+  text-decoration-color: #000000;
+}
+
+.pie {
+  color: white;
+  background-color: #e96093;
+  border-radius: 10px;
+  font-size: 10px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px 12% 10px 12%;
 }
