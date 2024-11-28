@@ -26,6 +26,7 @@ h2 {
 .modo-de-juego {
   text-align: justify;
   color: white;
+  font-size: 15px;
 }
 
 .borde-fondo {
@@ -34,6 +35,7 @@ h2 {
   padding: 15px;
   border-radius: 10px;
   background-color: #bc105c;
+  box-sizing: border-box;
 }
 
 .borde1 {
@@ -55,7 +57,7 @@ img {
   border-bottom: 2px dotted #9a0032;
 }
 
-button {
+.boton {
   background-color: #277f1e;
   color: white;
   border-radius: 5px;
@@ -85,10 +87,24 @@ p {
 }
 
 .link-compra {
-  color: white;
   background-color: #277f1e;
-  text-decoration:underline;
-  text-decoration-color: #000000;
+  color: white;
+  width: 220px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  &:hover {
+    background-color: #bc105c;
+  }
+}
+
+.float {
+  float: right;
+  width: 8%;
+  padding-left: 10px;
+  
 }
 
 .pie {

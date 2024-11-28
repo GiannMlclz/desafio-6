@@ -1,0 +1,118 @@
+@font-face {
+    font-family: jaro;
+    src: url(public/fuentes/Jaro-Regular-VariableFont_opsz.ttf);
+}
+@font-face {
+    font-family: Josefin;
+    src: url(public/fuentes/JosefinSans-VariableFont_wght.ttf);
+}
+
+
+body {
+   background-image: url(public/imgs/bcg-img.jpg);
+   font-family: Josefin;
+}
+
+h1 {
+    color: rgb(255, 255, 0);
+    text-align: center;
+    text-shadow: 6px 2px 2px rgb(255, 0, 0);
+    font-family: jaro;
+    font-size: 200px;
+    letter-spacing: 10px;
+    margin: 0;
+    animation: mover-left-right 2s 1;
+    font-variant-caps: all-small-caps;
+}
+@keyframes mover-left-right {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(0.2px);
+    }
+}
+
+h2 {
+    color: yellow;
+    text-shadow: 2px 2px 1px black;
+    font-size: 30px;
+    
+}
+
+.borde-fondo {
+    text-align: center;
+    margin: 30px 12% 15px 12%;
+    background: rgb(174,42,42);
+    background: linear-gradient(90deg, rgba(174,42,42,1) 16%, rgba(240,108,0,1) 51%, rgba(245,255,0,1) 100%);
+    border-radius: 50px;
+    border: 10px solid black;
+}
+
+.borde1 {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(125, 18, 18);
+    box-sizing: border-box;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+img {
+    width: 100%;
+    border: 2px dashed yellow;
+}
+
+.mk-titulo {
+    text-align: end;
+    text-shadow: 2px 2px black;
+    color: yellow;
+    border-bottom: 2px double;    
+    
+}
+
+p {
+    color: yellow;
+    font-size: 15px;
+    text-align: justify;
+}
+
+button {
+    border: 0;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    text-align: center;
+    display: inline-flex;
+    
+}
+
+span {
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+button:hover span {
+    background: none;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.borde2 {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(125, 18, 18);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-sizing: border-box;
+  }
