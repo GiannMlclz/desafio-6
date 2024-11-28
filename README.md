@@ -8,3 +8,11 @@
 
 ## Terminado con eso, arrancamos el CSS propio, agregamos mucha creatividad, insiprandome de ideas, videos, etc 
 
+### Verificación de codigo
+
+```sh
+https://validator.w3.org/nu
+```
+
+Git repo: https://github.com/GiannMlclz/desafio-6
+Netlify: https://desafio-6-gian.netlify.app/
